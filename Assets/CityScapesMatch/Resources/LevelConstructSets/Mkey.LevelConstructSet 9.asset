@@ -20,15 +20,15 @@ MonoBehaviour:
   backGroundNumber: 0
   levelMission:
     description: Mission
-    timeConstrain: 0
     movesConstrain: 35
-    scoreTarget: 0
     targets:
       list:
       - id: 100001
         count: 20
       - id: 500000
         count: 5
+    scoreTarget: 0
+    timeConstrain: 0
   matchObjects: ea030000eb030000ec030000ed030000
   blockedCells: []
   disabledCells:

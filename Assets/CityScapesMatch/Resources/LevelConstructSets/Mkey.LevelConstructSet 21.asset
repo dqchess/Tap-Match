@@ -24,7 +24,7 @@ MonoBehaviour:
     targets:
       list:
       - id: 100003
-        count: 8
+        count: 6
       - id: 500000
         count: 2
       - id: 700001
