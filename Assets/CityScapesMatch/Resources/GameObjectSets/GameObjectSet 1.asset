@@ -1,0 +1,398 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 384ae313a5d743c4aa42d5ebbd3a14f9, type: 3}
+  m_Name: GameObjectSet 1
+  m_EditorClassIdentifier: 
+  backGrounds:
+  - {fileID: 21300000, guid: 4c782f49149f7354b835bbedd6ad0651, type: 3}
+  - {fileID: 21300000, guid: bf469db722dab6549814164161df1c61, type: 3}
+  - {fileID: 21300000, guid: 98be7d7aedb15b4498952c95a230402c, type: 3}
+  - {fileID: 21300000, guid: 676541ac534184348a42bcc0da30a562, type: 3}
+  gridCellOdd: {fileID: 1620328770448470, guid: 6e8d9dcd890e3f141963f71872da3551,
+    type: 3}
+  gridCellEven: {fileID: 1620328770448470, guid: 54c1d550821205746a90b619fe5e6efe,
+    type: 3}
+  gridCellDisabledSprite: {fileID: 21300000, guid: a5456026ccfddc9498b314dc6c90d2b3,
+    type: 3}
+  disabledObject:
+    name: 'Field CellDisabled; ID : 1'
+    id: 1
+    ObjectImage: {fileID: 21300000, guid: a5456026ccfddc9498b314dc6c90d2b3, type: 3}
+    GuiImage: {fileID: 0}
+    privateClip: {fileID: 0}
+  blockedObjects: []
+  matchObjects:
+  - name: 'Field Items Violet; ID : 1000'
+    id: 1000
+    ObjectImage: {fileID: 21300000, guid: 12b265512d96de640bd6e9244d91a12a, type: 3}
+    GuiImage: {fileID: 21300000, guid: 12b265512d96de640bd6e9244d91a12a, type: 3}
+    privateClip: {fileID: 8300000, guid: d2ab22fc23f297640a3ea82248e05bac, type: 3}
+    ObjectGroup5Image_H: {fileID: 21300000, guid: 317692eb5ea8eda479a2ac468357da80,
+      type: 3}
+    ObjectGroup5Image_V: {fileID: 21300000, guid: 9a657d90dc451db44b75028632a34bd3,
+      type: 3}
+    ObjectGroup7Image: {fileID: 21300000, guid: dc5465bedf1de344b82b6605307053f7,
+      type: 3}
+    ObjectGroup9Image: {fileID: 21300000, guid: 6c18df43da8d1dc428d3338bb7b6d2e1,
+      type: 3}
+    collectAnimPrefab: {fileID: 1461369150829944, guid: 524b8b2d584106d4ea7ce1e44ebfb919,
+      type: 3}
+    canUseAsTarget: 1
+    colorBomb:
+      name: 'Booster Color Bomb Violet; ID : 400100'
+      id: 400100
+      ObjectImage: {fileID: 21300000, guid: 7f15f752d31d4af40859cb0417a51ddc, type: 3}
+      GuiImage: {fileID: 21300000, guid: 7f15f752d31d4af40859cb0417a51ddc, type: 3}
+      privateClip: {fileID: 8300000, guid: 44555bd57db087d49bcc1cd0c70ad628, type: 3}
+      bombType: 3
+      iddleAnimPrefab: {fileID: 0}
+      explodeAnimPrefab: {fileID: 8731511272881823524, guid: 1f66e4dfecd2bc94b9c36aff05b86551,
+        type: 3}
+      createAnimPrefab: {fileID: 1461369150829944, guid: e340a3770afc23a40a84f2754d50b884,
+        type: 3}
+      additAnimPrefab: {fileID: 7733019507437125691, guid: 3259964308c0a6446a0dcb8b40856b53,
+        type: 3}
+      matchID: 1000
+  - name: 'Field Items Cyan Box; ID : 1001'
+    id: 1001
+    ObjectImage: {fileID: 21300000, guid: 615ecd48b1f53bb49afcd8ca0f33164d, type: 3}
+    GuiImage: {fileID: 21300000, guid: 615ecd48b1f53bb49afcd8ca0f33164d, type: 3}
+    privateClip: {fileID: 8300000, guid: d2ab22fc23f297640a3ea82248e05bac, type: 3}
+    ObjectGroup5Image_H: {fileID: 21300000, guid: 913958a21f7f0834aaa7b65a1663e670,
+      type: 3}
+    ObjectGroup5Image_V: {fileID: 21300000, guid: fbd42885f7b527344803a1e1a0d8a340,
+      type: 3}
+    ObjectGroup7Image: {fileID: 21300000, guid: fe34dcf2d71337e4aa24443655d1da92,
+      type: 3}
+    ObjectGroup9Image: {fileID: 21300000, guid: 0a72461ccc41f6144ac8d9be76c5417b,
+      type: 3}
+    collectAnimPrefab: {fileID: 1461369150829944, guid: 39b7b48747786d247863d54e092285d3,
+      type: 3}
+    canUseAsTarget: 1
+    colorBomb:
+      name: 'Booster Color Bomb Cyan; ID : 400101'
+      id: 400101
+      ObjectImage: {fileID: 21300000, guid: 1607165b1b7480046a7e63e945c8f79c, type: 3}
+      GuiImage: {fileID: 21300000, guid: 1607165b1b7480046a7e63e945c8f79c, type: 3}
+      privateClip: {fileID: 8300000, guid: 44555bd57db087d49bcc1cd0c70ad628, type: 3}
+      bombType: 3
+      iddleAnimPrefab: {fileID: 0}
+      explodeAnimPrefab: {fileID: 8731511272881823524, guid: 1f66e4dfecd2bc94b9c36aff05b86551,
+        type: 3}
+      createAnimPrefab: {fileID: 1461369150829944, guid: e340a3770afc23a40a84f2754d50b884,
+        type: 3}
+      additAnimPrefab: {fileID: 7733019507437125691, guid: 7c68df995b6655d4a94ab09161e9b73c,
+        type: 3}
+      matchID: 1001
+  - name: 'Field Items Green Box; ID : 1002'
+    id: 1002
+    ObjectImage: {fileID: 21300000, guid: 7489211627b283942ac6b80a38535b1b, type: 3}
+    GuiImage: {fileID: 21300000, guid: 7489211627b283942ac6b80a38535b1b, type: 3}
+    privateClip: {fileID: 8300000, guid: d2ab22fc23f297640a3ea82248e05bac, type: 3}
+    ObjectGroup5Image_H: {fileID: 21300000, guid: d70691deefb8ba6448cdf95d9a9d1afd,
+      type: 3}
+    ObjectGroup5Image_V: {fileID: 21300000, guid: 86fcfcb9a31c7164b82b7839604a987e,
+      type: 3}
+    ObjectGroup7Image: {fileID: 21300000, guid: 9817b683b3f505d44a956e7fd6160f94,
+      type: 3}
+    ObjectGroup9Image: {fileID: 21300000, guid: b0cc85069be54c147befb5d00a35186f,
+      type: 3}
+    collectAnimPrefab: {fileID: 1461369150829944, guid: c8f30b38424b8ee4495d4fa5f2a1d41c,
+      type: 3}
+    canUseAsTarget: 1
+    colorBomb:
+      name: 'Booster Color Bomb Green; ID : 400102'
+      id: 400102
+      ObjectImage: {fileID: 21300000, guid: 64eb1e09afb3cd043b8793a9d78acc49, type: 3}
+      GuiImage: {fileID: 21300000, guid: 64eb1e09afb3cd043b8793a9d78acc49, type: 3}
+      privateClip: {fileID: 8300000, guid: 44555bd57db087d49bcc1cd0c70ad628, type: 3}
+      bombType: 3
+      iddleAnimPrefab: {fileID: 0}
+      explodeAnimPrefab: {fileID: 8731511272881823524, guid: 1f66e4dfecd2bc94b9c36aff05b86551,
+        type: 3}
+      createAnimPrefab: {fileID: 1461369150829944, guid: e340a3770afc23a40a84f2754d50b884,
+        type: 3}
+      additAnimPrefab: {fileID: 7733019507437125691, guid: 7c68df995b6655d4a94ab09161e9b73c,
+        type: 3}
+      matchID: 1002
+  - name: 'Field Items Orange Box; ID : 1003'
+    id: 1003
+    ObjectImage: {fileID: 21300000, guid: ac883f4df405bdc4b9bbcdf84e669353, type: 3}
+    GuiImage: {fileID: 21300000, guid: ac883f4df405bdc4b9bbcdf84e669353, type: 3}
+    privateClip: {fileID: 8300000, guid: d2ab22fc23f297640a3ea82248e05bac, type: 3}
+    ObjectGroup5Image_H: {fileID: 21300000, guid: b4fff1e0fbf7f3f44bee9f6726135fde,
+      type: 3}
+    ObjectGroup5Image_V: {fileID: 21300000, guid: fa5da891a679fb04abf77c3075ffd094,
+      type: 3}
+    ObjectGroup7Image: {fileID: 21300000, guid: 0b99d57e1ec193847a0ae0218401fa4f,
+      type: 3}
+    ObjectGroup9Image: {fileID: 21300000, guid: f20f8ae353a11e84a9d48ef9838f52e9,
+      type: 3}
+    collectAnimPrefab: {fileID: 1461369150829944, guid: fa611a80165d0b045b3395ce7e001f4d,
+      type: 3}
+    canUseAsTarget: 1
+    colorBomb:
+      name: 'Booster Color Bomb Orrange; ID : 400103'
+      id: 400103
+      ObjectImage: {fileID: 21300000, guid: 85e52bdce0621a840803de726cc90684, type: 3}
+      GuiImage: {fileID: 21300000, guid: 85e52bdce0621a840803de726cc90684, type: 3}
+      privateClip: {fileID: 8300000, guid: 44555bd57db087d49bcc1cd0c70ad628, type: 3}
+      bombType: 3
+      iddleAnimPrefab: {fileID: 0}
+      explodeAnimPrefab: {fileID: 8731511272881823524, guid: 1f66e4dfecd2bc94b9c36aff05b86551,
+        type: 3}
+      createAnimPrefab: {fileID: 1461369150829944, guid: e340a3770afc23a40a84f2754d50b884,
+        type: 3}
+      additAnimPrefab: {fileID: 7733019507437125691, guid: 6ab6dafcc83a65943872df852525909c,
+        type: 3}
+      matchID: 1003
+  - name: 'Field Items Red Box; ID : 1004'
+    id: 1004
+    ObjectImage: {fileID: 21300000, guid: 72e7af76eb3196b46bccdaf992e29ed6, type: 3}
+    GuiImage: {fileID: 21300000, guid: 72e7af76eb3196b46bccdaf992e29ed6, type: 3}
+    privateClip: {fileID: 8300000, guid: d2ab22fc23f297640a3ea82248e05bac, type: 3}
+    ObjectGroup5Image_H: {fileID: 21300000, guid: 365ab29fa586fc94181cbe4f787a600f,
+      type: 3}
+    ObjectGroup5Image_V: {fileID: 21300000, guid: 19e929eaa74175f4ba46ba7f7bbb27a8,
+      type: 3}
+    ObjectGroup7Image: {fileID: 21300000, guid: a9746f06b26dd7449912699bce55bd3b,
+      type: 3}
+    ObjectGroup9Image: {fileID: 21300000, guid: ba7369dd8bc399d4b96252d9d9684524,
+      type: 3}
+    collectAnimPrefab: {fileID: 1461369150829944, guid: 501815679f9e22c46bb2d76496b935f1,
+      type: 3}
+    canUseAsTarget: 1
+    colorBomb:
+      name: 'Booster Color Bomb Red; ID : 400104'
+      id: 400104
+      ObjectImage: {fileID: 21300000, guid: 2aae652e218cd7848b0bea611de9344d, type: 3}
+      GuiImage: {fileID: 21300000, guid: 2aae652e218cd7848b0bea611de9344d, type: 3}
+      privateClip: {fileID: 8300000, guid: 44555bd57db087d49bcc1cd0c70ad628, type: 3}
+      bombType: 3
+      iddleAnimPrefab: {fileID: 0}
+      explodeAnimPrefab: {fileID: 8731511272881823524, guid: 1f66e4dfecd2bc94b9c36aff05b86551,
+        type: 3}
+      createAnimPrefab: {fileID: 1461369150829944, guid: e340a3770afc23a40a84f2754d50b884,
+        type: 3}
+      additAnimPrefab: {fileID: 7733019507437125691, guid: 5f6d64b6ff84c954890ffed823a88b5f,
+        type: 3}
+      matchID: 1004
+  - name: 'Field Items Yellow Box; ID : 1005'
+    id: 1005
+    ObjectImage: {fileID: 21300000, guid: 8eac935fe74b766409202dfd7118ecc6, type: 3}
+    GuiImage: {fileID: 21300000, guid: 8eac935fe74b766409202dfd7118ecc6, type: 3}
+    privateClip: {fileID: 8300000, guid: d2ab22fc23f297640a3ea82248e05bac, type: 3}
+    ObjectGroup5Image_H: {fileID: 21300000, guid: 3e868023f994e2041a2504dddf0fa330,
+      type: 3}
+    ObjectGroup5Image_V: {fileID: 21300000, guid: 6e2ed89eedd90a94083089332ec634ae,
+      type: 3}
+    ObjectGroup7Image: {fileID: 21300000, guid: bfc0c3c0d68476147bafc81e0196b90e,
+      type: 3}
+    ObjectGroup9Image: {fileID: 21300000, guid: 8eaa2dcb2f088ea4cbe53685f495a6d9,
+      type: 3}
+    collectAnimPrefab: {fileID: 1461369150829944, guid: 622b038e994622844857660bed85c9db,
+      type: 3}
+    canUseAsTarget: 1
+    colorBomb:
+      name: 'Booster Color Bomb Yellow; ID : 400105'
+      id: 400105
+      ObjectImage: {fileID: 21300000, guid: e5429ac16b93f64469fbbba34457ca0d, type: 3}
+      GuiImage: {fileID: 21300000, guid: e5429ac16b93f64469fbbba34457ca0d, type: 3}
+      privateClip: {fileID: 8300000, guid: 44555bd57db087d49bcc1cd0c70ad628, type: 3}
+      bombType: 3
+      iddleAnimPrefab: {fileID: 0}
+      explodeAnimPrefab: {fileID: 8731511272881823524, guid: 1f66e4dfecd2bc94b9c36aff05b86551,
+        type: 3}
+      createAnimPrefab: {fileID: 1461369150829944, guid: e340a3770afc23a40a84f2754d50b884,
+        type: 3}
+      additAnimPrefab: {fileID: 7733019507437125691, guid: 7cb337d439a37eb4391eaaaccb028737,
+        type: 3}
+      matchID: 1005
+  overlayObjects:
+  - name: 'BlockerBars Full; ID : 100000'
+    id: 100000
+    ObjectImage: {fileID: 21300000, guid: 958a0a4940ab9c043b9a4ce0d92399b6, type: 3}
+    GuiImage: {fileID: 21300000, guid: 958a0a4940ab9c043b9a4ce0d92399b6, type: 3}
+    privateClip: {fileID: 8300000, guid: 913adb09d9764cd43887edc623e4e73b, type: 3}
+    blockMatch: 0
+    protectionStateImages:
+    - {fileID: 21300000, guid: 414277e6c60e8b448a8f7731def6915c, type: 3}
+    hitAnimPrefab: {fileID: 1874081898305196, guid: 6de76917d4304374da7b5b49170a237f,
+      type: 3}
+    canUseAsTarget: 1
+  - name: 'Blocker Clouds Full; ID : 100001'
+    id: 100001
+    ObjectImage: {fileID: 21300000, guid: 99bf9ca1ac8f9ab4fb2507751ea97864, type: 3}
+    GuiImage: {fileID: 21300000, guid: 99bf9ca1ac8f9ab4fb2507751ea97864, type: 3}
+    privateClip: {fileID: 8300000, guid: 5567d63db0b651544864b9234ae6729a, type: 3}
+    blockMatch: 1
+    protectionStateImages:
+    - {fileID: 21300000, guid: ea581c0b6cbca0a49ab1be3ac61b06fc, type: 3}
+    hitAnimPrefab: {fileID: 1874081898305196, guid: b15390a4b7d894242955573addf7114a,
+      type: 3}
+    canUseAsTarget: 1
+  - name: 'Blocker Chain Full; ID : 100002'
+    id: 100002
+    ObjectImage: {fileID: 21300000, guid: a550f17c9d218ce4793f915f9cfe4a9a, type: 3}
+    GuiImage: {fileID: 21300000, guid: a550f17c9d218ce4793f915f9cfe4a9a, type: 3}
+    privateClip: {fileID: 8300000, guid: 913adb09d9764cd43887edc623e4e73b, type: 3}
+    blockMatch: 0
+    protectionStateImages:
+    - {fileID: 21300000, guid: 7a2c18dcc717ba74d8ee70422ca103f7, type: 3}
+    - {fileID: 21300000, guid: fb0e7efc08ecd244698872a8ac436e52, type: 3}
+    hitAnimPrefab: {fileID: 1874081898305196, guid: 43f321b7c531d954f8ca2344f9338798,
+      type: 3}
+    canUseAsTarget: 1
+  - name: 'Blocker Glass; ID : 100003'
+    id: 100003
+    ObjectImage: {fileID: 21300000, guid: b538f8213272e5640bfe722930fb4415, type: 3}
+    GuiImage: {fileID: 21300000, guid: b538f8213272e5640bfe722930fb4415, type: 3}
+    privateClip: {fileID: 8300000, guid: b5ab491d2e21c084da9af5590a67935e, type: 3}
+    blockMatch: 0
+    protectionStateImages: []
+    hitAnimPrefab: {fileID: 1874081898305196, guid: 571887a9928c5ae47ab570b887812b2a,
+      type: 3}
+    canUseAsTarget: 1
+  underlayObjects: []
+  dynamicClickBombObjectVertical:
+    name: 'Rocket V; ID : 400020'
+    id: 400020
+    ObjectImage: {fileID: 21300000, guid: b0d923bbf47725249bd0edeb4130612e, type: 3}
+    GuiImage: {fileID: 21300000, guid: b0d923bbf47725249bd0edeb4130612e, type: 3}
+    privateClip: {fileID: 8300000, guid: 3d3b257bfe5844fa0bb085690ef198f0, type: 3}
+    bombType: 0
+    iddleAnimPrefab: {fileID: 0}
+    explodeAnimPrefab: {fileID: 4197832433949802054, guid: 7527c1d6f77ad4349bc60111ea0b9420,
+      type: 3}
+    createAnimPrefab: {fileID: 1461369150829944, guid: e340a3770afc23a40a84f2754d50b884,
+      type: 3}
+    additAnimPrefab: {fileID: 0}
+    matchID: 0
+  dynamicClickBombObjectHorizontal:
+    name: 'Rocket H; ID : 400021'
+    id: 400021
+    ObjectImage: {fileID: 21300000, guid: 45d3ce9678abab9449eb1ec9625797cc, type: 3}
+    GuiImage: {fileID: 21300000, guid: 45d3ce9678abab9449eb1ec9625797cc, type: 3}
+    privateClip: {fileID: 8300000, guid: 889a10d417fff479f8a2df7d575b481b, type: 3}
+    bombType: 1
+    iddleAnimPrefab: {fileID: 0}
+    explodeAnimPrefab: {fileID: 4197832433949802054, guid: 62bccd3d45b45d341a64fad4b8c14d6c,
+      type: 3}
+    createAnimPrefab: {fileID: 1461369150829944, guid: e340a3770afc23a40a84f2754d50b884,
+      type: 3}
+    additAnimPrefab: {fileID: 0}
+    matchID: 0
+  dynamicClickBombObjectRadial:
+    name: 'Bomb Radial; ID : 400022'
+    id: 400022
+    ObjectImage: {fileID: 21300000, guid: 9eb06976629e6e040937fe234e9b411b, type: 3}
+    GuiImage: {fileID: 21300000, guid: 9eb06976629e6e040937fe234e9b411b, type: 3}
+    privateClip: {fileID: 8300000, guid: b358ff08f862f42f5821449abd4d0e88, type: 3}
+    bombType: 2
+    iddleAnimPrefab: {fileID: 0}
+    explodeAnimPrefab: {fileID: 8731511272881823524, guid: 7e7970e75dbaecd4a926551d20806373,
+      type: 3}
+    createAnimPrefab: {fileID: 1461369150829944, guid: e340a3770afc23a40a84f2754d50b884,
+      type: 3}
+    additAnimPrefab: {fileID: 0}
+    matchID: 0
+  boosterObjects:
+  - name: 'Shuffle; ID : 300000'
+    id: 300000
+    ObjectImage: {fileID: 21300000, guid: 6c9ed2ce69bd8954da5cb01febadf380, type: 3}
+    GuiImage: {fileID: 21300000, guid: 6c9ed2ce69bd8954da5cb01febadf380, type: 3}
+    privateClip: {fileID: 8300000, guid: 37dd97ac8e1e4824dbd80c71a99740aa, type: 3}
+    prefab: {fileID: 5424668365804094945, guid: fe5ad4e6eb31705469c6d6b3920da495,
+      type: 3}
+    animPrefab: {fileID: 0}
+  - name: 'TNT; ID : 300001'
+    id: 300001
+    ObjectImage: {fileID: 21300000, guid: e23fa08fbeb86b341bdd6e2cdddbd256, type: 3}
+    GuiImage: {fileID: 21300000, guid: e23fa08fbeb86b341bdd6e2cdddbd256, type: 3}
+    privateClip: {fileID: 8300000, guid: 44555bd57db087d49bcc1cd0c70ad628, type: 3}
+    prefab: {fileID: 2949760135519299647, guid: aff807282fc095d4d9808f88866dd6f6,
+      type: 3}
+    animPrefab: {fileID: 1972096600451174, guid: 755dff7ea8e15984897c87d8795ede1c,
+      type: 3}
+  - name: 'Dynamite; ID : 300002'
+    id: 300002
+    ObjectImage: {fileID: 21300000, guid: 7945caa5e8759c04e87821291d18bf76, type: 3}
+    GuiImage: {fileID: 21300000, guid: 7945caa5e8759c04e87821291d18bf76, type: 3}
+    privateClip: {fileID: 8300000, guid: 44555bd57db087d49bcc1cd0c70ad628, type: 3}
+    prefab: {fileID: 1002359722127857003, guid: 57f2c654987eb944fb10a058eb9a193b,
+      type: 3}
+    animPrefab: {fileID: 1972096600451174, guid: 755dff7ea8e15984897c87d8795ede1c,
+      type: 3}
+  - name: 'Hammer; ID : 300003'
+    id: 300003
+    ObjectImage: {fileID: 21300000, guid: 7ac6901ae39cc6243897847934cae84c, type: 3}
+    GuiImage: {fileID: 21300000, guid: 7ac6901ae39cc6243897847934cae84c, type: 3}
+    privateClip: {fileID: 8300000, guid: 62ba090caf5d1b04c8950e9490adb8e9, type: 3}
+    prefab: {fileID: 3849432806696295501, guid: 9ce1f8cde617da44f9336d4f22aff709,
+      type: 3}
+    animPrefab: {fileID: 1972096600451174, guid: 755dff7ea8e15984897c87d8795ede1c,
+      type: 3}
+  - name: 'Wand; ID : 300004'
+    id: 300004
+    ObjectImage: {fileID: 21300000, guid: fa9bd048ce62f5849bde2021a8705c10, type: 3}
+    GuiImage: {fileID: 21300000, guid: fa9bd048ce62f5849bde2021a8705c10, type: 3}
+    privateClip: {fileID: 8300000, guid: 37dd97ac8e1e4824dbd80c71a99740aa, type: 3}
+    prefab: {fileID: 795025249770771163, guid: f453aa8cd454317498a781b8d788cd2d, type: 3}
+    animPrefab: {fileID: 1972096600451174, guid: 755dff7ea8e15984897c87d8795ede1c,
+      type: 3}
+  dynamicBlockerObjects:
+  - name: 'FildItemBall; ID : 600000'
+    id: 600000
+    ObjectImage: {fileID: 21300000, guid: 5a13a73ae4fa99c45a61e52667bebc59, type: 3}
+    GuiImage: {fileID: 21300000, guid: 5a13a73ae4fa99c45a61e52667bebc59, type: 3}
+    privateClip: {fileID: 8300000, guid: 5960a64906d2b7847926f068396cd96f, type: 3}
+    protectionStateImages: []
+    hitAnimPrefab: {fileID: 1874081898305196, guid: 96dcfec140e135044be7590feb9754f9,
+      type: 3}
+    sideHit: 0
+    directHit: 1
+    canUseAsTarget: 1
+  staticBlockerObjects:
+  - name: 'Blocker Present Full; ID : 700000'
+    id: 700000
+    ObjectImage: {fileID: 21300000, guid: 04f6125bd75e00941a246307e8dbb551, type: 3}
+    GuiImage: {fileID: 21300000, guid: 04f6125bd75e00941a246307e8dbb551, type: 3}
+    privateClip: {fileID: 8300000, guid: e25edb31912040c4aa6434a06d810355, type: 3}
+    protectionStateImages:
+    - {fileID: 21300000, guid: 65654ddb8a137a8499de312929090c05, type: 3}
+    - {fileID: 21300000, guid: ecbb456bfa1590949bc4ccd2b686f7e7, type: 3}
+    hitAnimPrefab: {fileID: 1874081898305196, guid: 7ad867619db550d4587d8057a3969ff0,
+      type: 3}
+    sideHit: 1
+    directHit: 1
+    canUseAsTarget: 1
+  - name: 'Blocker WoodBox Full; ID : 700001'
+    id: 700001
+    ObjectImage: {fileID: 21300000, guid: b334aaa14571a304c9952edf74cfb9ea, type: 3}
+    GuiImage: {fileID: 21300000, guid: b334aaa14571a304c9952edf74cfb9ea, type: 3}
+    privateClip: {fileID: 8300000, guid: cf0710f51115a114fa1ca2c088ea8e70, type: 3}
+    protectionStateImages:
+    - {fileID: 21300000, guid: 7b435abfff5e177408ce7bc4575280fa, type: 3}
+    hitAnimPrefab: {fileID: 1874081898305196, guid: 7b1c432d3e09b944a9f5ade5bf353ac3,
+      type: 3}
+    sideHit: 1
+    directHit: 1
+    canUseAsTarget: 1
+  fallingObject:
+    name: 'BlockerLego; ID : 500000'
+    id: 500000
+    ObjectImage: {fileID: 21300000, guid: a4ffb76b07fab9a45950de041d292ee1, type: 3}
+    GuiImage: {fileID: 21300000, guid: a4ffb76b07fab9a45950de041d292ee1, type: 3}
+    privateClip: {fileID: 8300000, guid: d2ab22fc23f297640a3ea82248e05bac, type: 3}
+    iddleAnimPrefab: {fileID: 0}
+    collectAnimPrefab: {fileID: 0}
+    canUseAsTarget: 1

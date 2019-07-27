@@ -1,0 +1,114 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f428baab0ef3964690a94bac11de0cf, type: 3}
+  m_Name: Mkey.LevelConstructSet 18
+  m_EditorClassIdentifier: 
+  vertSize: 8
+  horSize: 9
+  distX: 0
+  distY: 0
+  scale: 0.9
+  backGroundNumber: 0
+  levelMission:
+    description: Mission
+    timeConstrain: 0
+    movesConstrain: 35
+    scoreTarget: 0
+    targets:
+      list:
+      - id: 500000
+        count: 3
+      - id: 700001
+        count: 7
+      - id: 100002
+        count: 2
+  matchObjects: 
+  blockedCells: []
+  disabledCells:
+  - id: 1
+    row: 0
+    column: 0
+  - id: 1
+    row: 7
+    column: 0
+  - id: 1
+    row: 7
+    column: 8
+  - id: 1
+    row: 0
+    column: 8
+  - id: 1
+    row: 0
+    column: 1
+  - id: 1
+    row: 0
+    column: 7
+  - id: 1
+    row: 1
+    column: 0
+  - id: 1
+    row: 1
+    column: 8
+  - id: 1
+    row: 6
+    column: 8
+  - id: 1
+    row: 6
+    column: 0
+  - id: 1
+    row: 7
+    column: 1
+  - id: 1
+    row: 7
+    column: 7
+  featuredCells: []
+  fallingCells:
+  - id: 500000
+    row: 0
+    column: 2
+  - id: 500000
+    row: 0
+    column: 4
+  - id: 500000
+    row: 0
+    column: 6
+  overlayCells:
+  - id: 100002
+    row: 6
+    column: 3
+  - id: 100002
+    row: 6
+    column: 5
+  underlayCells: []
+  dynamicBlockerCells: []
+  staticBlockerCells:
+  - id: 700001
+    row: 2
+    column: 1
+  - id: 700001
+    row: 4
+    column: 2
+  - id: 700001
+    row: 2
+    column: 3
+  - id: 700001
+    row: 4
+    column: 4
+  - id: 700001
+    row: 2
+    column: 5
+  - id: 700001
+    row: 4
+    column: 6
+  - id: 700001
+    row: 2
+    column: 7

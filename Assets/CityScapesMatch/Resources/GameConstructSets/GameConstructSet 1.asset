@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a8d6441322bc15e468c0ee52be59dffc, type: 3}
+  m_Name: GameConstructSet 1
+  m_EditorClassIdentifier: 
+  gOSet: {fileID: 11400000, guid: 67d38a0dc60b82e40b5159b9bd4be672, type: 2}
+  levelSets:
+  - {fileID: 11400000, guid: 22af2fe88cdec1940931ab487fbe1673, type: 2}
+  - {fileID: 11400000, guid: 8190963757054094aa2ceb4451748922, type: 2}
+  - {fileID: 11400000, guid: 8b11f7fbd0e60ba409945bee483ac261, type: 2}
+  - {fileID: 11400000, guid: 02546df330336e94ea72224af4005b87, type: 2}
+  - {fileID: 11400000, guid: 03dda99094b7214448926d3a7b6847fc, type: 2}
+  - {fileID: 11400000, guid: 5243fa8d4a6e0bc409d0ec65d220772f, type: 2}
+  - {fileID: 11400000, guid: d94795f41cad843479b26d16b13e258a, type: 2}
+  - {fileID: 11400000, guid: e4ca87651864fed4293650ba56c28c0b, type: 2}
+  - {fileID: 11400000, guid: c98ff983e4455904c91aa633794f49b0, type: 2}
+  - {fileID: 11400000, guid: 3a272ed9da255de458e7fd62dddc2189, type: 2}
+  - {fileID: 11400000, guid: 797a2b42a7038b146bfaf7e1d374018e, type: 2}
+  - {fileID: 11400000, guid: 234532b816b3fbf46ae022a287daaa29, type: 2}
+  - {fileID: 11400000, guid: 918cd2d42a011f743bc9b8e5d85a62be, type: 2}
+  - {fileID: 11400000, guid: b7a3bbc42b4b4ef45998df6a9827e539, type: 2}
+  - {fileID: 11400000, guid: 6205b06838fb003428b206cdf6dcb9d1, type: 2}
+  - {fileID: 11400000, guid: 8e6153295d69d8840a6af6d8ef354654, type: 2}
+  - {fileID: 11400000, guid: c2fbb0e79f8274740a8eee0b42f05a63, type: 2}
+  - {fileID: 11400000, guid: 7f6ca21bcf8ca4c409383b753a179f33, type: 2}
+  - {fileID: 11400000, guid: 209cfeb66017c8f40b8c47796116de23, type: 2}
+  - {fileID: 11400000, guid: 1d8ecca7ba771d941be132ce0a5af6d2, type: 2}
+  - {fileID: 11400000, guid: 337e1127d801d5e469f01bb29bebb69c, type: 2}
+  gift:
+    life: 0
+    coins: 0
+    boosters: 
