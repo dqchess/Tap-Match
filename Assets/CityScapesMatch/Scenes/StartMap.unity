@@ -1668,7 +1668,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &88743375
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3826,7 +3826,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 186.99997, y: 355}
+  m_AnchoredPosition: {x: 187, y: 355}
   m_SizeDelta: {x: 253, y: 253}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &175455552
@@ -14363,24 +14363,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 577293877}
   m_CullTransparentMesh: 0
---- !u!1 &583503576 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1413496130435216, guid: 6120ae490b537604cbd9235c7f5e39b6,
-    type: 3}
-  m_PrefabInstance: {fileID: 1680115150}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &583503577
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 583503576}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d840e66167f031949950560f83cd2e0c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &584315119
 GameObject:
   m_ObjectHideFlags: 0
@@ -21777,7 +21759,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &923279274
 RectTransform:
   m_ObjectHideFlags: 0
@@ -25961,7 +25943,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -15.449951, y: 3}
+  m_AnchoredPosition: {x: 70, y: 0.000040531}
   m_SizeDelta: {x: -391.70007, y: -76.99999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1088787267
@@ -40136,47 +40118,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1676521882}
   m_CullTransparentMesh: 0
---- !u!1001 &1680115150
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 4218734413157528, guid: 6120ae490b537604cbd9235c7f5e39b6, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 882.73804
-      objectReference: {fileID: 0}
-    - target: {fileID: 4218734413157528, guid: 6120ae490b537604cbd9235c7f5e39b6, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 1478.5999
-      objectReference: {fileID: 0}
-    - target: {fileID: 4218734413157528, guid: 6120ae490b537604cbd9235c7f5e39b6, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4218734413157528, guid: 6120ae490b537604cbd9235c7f5e39b6, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4218734413157528, guid: 6120ae490b537604cbd9235c7f5e39b6, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4218734413157528, guid: 6120ae490b537604cbd9235c7f5e39b6, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4218734413157528, guid: 6120ae490b537604cbd9235c7f5e39b6, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 4218734413157528, guid: 6120ae490b537604cbd9235c7f5e39b6, type: 3}
-      propertyPath: m_RootOrder
-      value: 8
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 6120ae490b537604cbd9235c7f5e39b6, type: 3}
 --- !u!1 &1680569009
 GameObject:
   m_ObjectHideFlags: 0
@@ -47348,7 +47289,7 @@ MonoBehaviour:
   coinsText: {fileID: 1088787267}
   infiniteIcon: {fileID: 130584676}
   timerText: {fileID: 1384144463}
-  fbButton: {fileID: 1573559756}
+  fbButton: {fileID: 0}
 --- !u!1 &1959562506
 GameObject:
   m_ObjectHideFlags: 0
@@ -51993,7 +51934,7 @@ PrefabInstance:
     - target: {fileID: 3737520695629627743, guid: 614775e0af50573478f5caf3aad6b767,
         type: 3}
       propertyPath: m_RootOrder
-      value: 9
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 3737520695629627743, guid: 614775e0af50573478f5caf3aad6b767,
         type: 3}
@@ -52689,7 +52630,7 @@ PrefabInstance:
     - target: {fileID: 5306095726054377959, guid: 97b963b19b9fd8e40bbcdee9e9d3e07c,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 5306095726054377959, guid: 97b963b19b9fd8e40bbcdee9e9d3e07c,
         type: 3}
@@ -52758,7 +52699,7 @@ PrefabInstance:
     - target: {fileID: 6805064042325858476, guid: 6423f71e46299c34c9535c27e50a25c1,
         type: 3}
       propertyPath: m_RootOrder
-      value: 10
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6805064042325858476, guid: 6423f71e46299c34c9535c27e50a25c1,
         type: 3}
@@ -52774,6 +52715,86 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305786983781986200, guid: 6423f71e46299c34c9535c27e50a25c1,
+        type: 3}
+      propertyPath: consumable.Array.data[0].thingCount
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305786983781986200, guid: 6423f71e46299c34c9535c27e50a25c1,
+        type: 3}
+      propertyPath: consumable.Array.data[0].thingCountText
+      value: 50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305786983781986200, guid: 6423f71e46299c34c9535c27e50a25c1,
+        type: 3}
+      propertyPath: consumable.Array.data[0].name
+      value: 50 coins
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305786983781986200, guid: 6423f71e46299c34c9535c27e50a25c1,
+        type: 3}
+      propertyPath: consumable.Array.data[0].kProductID
+      value: coin_50
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305786983781986200, guid: 6423f71e46299c34c9535c27e50a25c1,
+        type: 3}
+      propertyPath: consumable.Array.data[1].name
+      value: 600 coins
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305786983781986200, guid: 6423f71e46299c34c9535c27e50a25c1,
+        type: 3}
+      propertyPath: consumable.Array.data[1].thingCount
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305786983781986200, guid: 6423f71e46299c34c9535c27e50a25c1,
+        type: 3}
+      propertyPath: consumable.Array.data[1].thingCountText
+      value: 600
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305786983781986200, guid: 6423f71e46299c34c9535c27e50a25c1,
+        type: 3}
+      propertyPath: consumable.Array.data[1].kProductID
+      value: coin_600
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305786983781986200, guid: 6423f71e46299c34c9535c27e50a25c1,
+        type: 3}
+      propertyPath: consumable.Array.data[2].thingCount
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305786983781986200, guid: 6423f71e46299c34c9535c27e50a25c1,
+        type: 3}
+      propertyPath: consumable.Array.data[2].thingCountText
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305786983781986200, guid: 6423f71e46299c34c9535c27e50a25c1,
+        type: 3}
+      propertyPath: consumable.Array.data[2].name
+      value: 1000 coins
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305786983781986200, guid: 6423f71e46299c34c9535c27e50a25c1,
+        type: 3}
+      propertyPath: consumable.Array.data[2].kProductID
+      value: coin_1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305786983781986200, guid: 6423f71e46299c34c9535c27e50a25c1,
+        type: 3}
+      propertyPath: consumable.Array.data[3].thingCount
+      value: 1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305786983781986200, guid: 6423f71e46299c34c9535c27e50a25c1,
+        type: 3}
+      propertyPath: consumable.Array.data[3].thingCountText
+      value: 1500
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305786983781986200, guid: 6423f71e46299c34c9535c27e50a25c1,
+        type: 3}
+      propertyPath: consumable.Array.data[3].name
+      value: 1500 coins
+      objectReference: {fileID: 0}
+    - target: {fileID: 8305786983781986200, guid: 6423f71e46299c34c9535c27e50a25c1,
+        type: 3}
+      propertyPath: consumable.Array.data[3].kProductID
+      value: coin_15s00
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6423f71e46299c34c9535c27e50a25c1, type: 3}

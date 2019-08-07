@@ -117,7 +117,7 @@ public class MapController : MonoBehaviour {
         if (scrollToActiveButton) StartCoroutine(SetMapPositionToAciveButton());
 		
 		  //update photo
-        SetFBPhoto(FBholder.IsLogined, FBholder.Instance.playerPhoto);
+//        SetFBPhoto(FBholder.IsLogined, FBholder.Instance.playerPhoto);
     }
 
     private void OnDestroy()
