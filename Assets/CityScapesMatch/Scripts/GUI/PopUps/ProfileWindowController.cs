@@ -45,7 +45,7 @@ namespace Mkey
         private MatchBoard MBoard { get { return MatchBoard.Instance; } }
         private MatchPlayer MPlayer { get { return MatchPlayer.Instance; } }
         private MatchGUIController MGui { get { return MatchGUIController.Instance; } }
-        private FBholder FB { get { return FBholder.Instance; } }
+        // private FBholder FB { get { return FBholder.Instance; } }
 
         #region regular
         private void Start()
@@ -63,14 +63,14 @@ namespace Mkey
                 });
                 inputField.enabled = false;
             }
-            if (FBholder.IsLogined && FB.playerPhoto)
-            {
-                avatarImage.sprite = FB.playerPhoto;
-            }
+            // if (FBholder.IsLogined && FB.playerPhoto)
+            // {
+            //     avatarImage.sprite = FB.playerPhoto;
+            // }
 
             // set fb events
-            FBholder.LoadPhotoEvent += SetFBPhoto;
-            FBholder.LogoutEvent += RemoveFBPhoto;
+            // FBholder.LoadPhotoEvent += SetFBPhoto;
+            // FBholder.LogoutEvent += RemoveFBPhoto;
 
             MPlayer.ChangeFullNameEvent += RefreshFullName;
             MPlayer.ChangeLifeEvent += RefreshLife;
@@ -80,8 +80,8 @@ namespace Mkey
 
         private void OnDestroy()
         {
-            FBholder.LoadPhotoEvent -= SetFBPhoto;
-            FBholder.LogoutEvent -= RemoveFBPhoto;
+            // FBholder.LoadPhotoEvent -= SetFBPhoto;
+            // FBholder.LogoutEvent -= RemoveFBPhoto;
             MPlayer.ChangeFullNameEvent -= RefreshFullName;
             MPlayer.ChangeLifeEvent -= RefreshLife;
             MPlayer.ChangeCoinsEvent -= RefreshCoins;
@@ -159,7 +159,7 @@ namespace Mkey
 
         private void SetFBPhoto(bool logined, Sprite photo)
         {
-            if (logined && photo && avatarImage) avatarImage.sprite = FB.playerPhoto;
+            // if (logined && photo && avatarImage) avatarImage.sprite = FB.playerPhoto;
         }
 
         private void RemoveFBPhoto()

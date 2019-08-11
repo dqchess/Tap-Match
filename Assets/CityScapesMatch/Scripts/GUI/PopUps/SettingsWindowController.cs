@@ -14,7 +14,7 @@ namespace Mkey {
         private Image soundOff;
 
         [SerializeField]
-        private Text facebookButtonText;
+        private Text ButtonText;
         [SerializeField]
         private Text musikOnOff;
         [SerializeField]
@@ -30,7 +30,6 @@ namespace Mkey {
         private float volume;
         private bool musikOn;
         private bool soundOn;
-        private bool facebookConnected;
         private HardMode hMode;
         #endregion initial
 
@@ -38,7 +37,7 @@ namespace Mkey {
         private MatchPlayer MPlayer { get { return MatchPlayer.Instance; } }
         private MatchGUIController MGui { get { return MatchGUIController.Instance; } }
         private MatchSoundMaster MSound { get { return MatchSoundMaster.Instance; } }
-        private FBholder FB { get { return FBholder.Instance; } } 
+            // private FBholder FB { get { return FBholder.Instance; } } 
 
         #region regular
         private void Start()
@@ -47,25 +46,18 @@ namespace Mkey {
             volume = MSound.Volume;
             musikOn = MSound.MusicOn;
             soundOn = MSound.SoundOn;
-            facebookConnected = FBholder.IsLogined;
 
            if(easyToggle) easyToggle.onValueChanged.AddListener((value) =>
             {
                 if (value) MPlayer.SetHardMode(HardMode.Easy);
                 else { MPlayer.SetHardMode(HardMode.Hard); }
             });
-           // FBholder.LoginEvent += FacebooLoginHandler;
-           // FBholder.LogoutEvent += FacebooLogoutHandler;
 
-          //  if(facebookConnectButton) facebookConnectButton.onClick.RemoveListener(FacebooLoginLogout);
-          //  if (facebookConnectButton) facebookConnectButton.onClick.AddListener(FacebooLoginLogout);
             RefreshWindow();
         }
 
         private void OnDestroy()
         {
-            FBholder.LoginEvent -= FacebooLoginHandler;
-            FBholder.LogoutEvent -= FacebooLogoutHandler;
         }
         #endregion regular
 
@@ -73,7 +65,6 @@ namespace Mkey {
         {
             RefreshSound();
             RefreshHardMode();
-            RefreshFacebook();
             base.RefreshWindow();
         }
 
@@ -92,14 +83,6 @@ namespace Mkey {
             MSound.SetMusic(musikOn);
             MSound.SetSound(soundOn);
 
-            if (facebookConnected != FBholder.IsLogined)
-            {
-                if (facebookConnected) FBholder.Instance.FBlogin();
-                else
-                {
-                    FBholder.Instance.FBlogOut();
-                }
-            }
         }
 
         private void RefreshSound()
@@ -110,32 +93,15 @@ namespace Mkey {
             if (musikOnOff)musikOnOff.text = (!MSound.MusicOn) ? "music off" : "music on";
         }
 
-        private void RefreshFacebook()
-        {
-            if (facebookButtonText) facebookButtonText.text = (!FBholder.IsLogined) ? "CONNECT" : "DISCONNECT";
-        }
 
-        public void FacebooLoginLogout()
-        {
-            if (FBholder.IsLogined)
-            {
-                FBholder.Instance.FBlogOut();
-            }
-            else
-            {
-                FBholder.Instance.FBlogin();
-            }
-        }
 
         public void FacebooLoginHandler(bool logined, string message)
         {
-            if (facebookButtonText) facebookButtonText.text = (!logined) ? "CONNECT" : "DISCONNECT";
             if (logined) MPlayer.AddFbCoins();
         }
 
         public void FacebooLogoutHandler()
         {
-            if (facebookButtonText) facebookButtonText.text = (!FBholder.IsLogined) ? "CONNECT" : "DISCONNECT";
         }
 
         private void RefreshHardMode()

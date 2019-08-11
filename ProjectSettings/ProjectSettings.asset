@@ -161,7 +161,7 @@ PlayerSettings:
     Standalone: com.Company.ProductName
     iOS: com.cx.crazysmash
   buildNumber:
-    iOS: 1.0.1
+    iOS: 1.0.2
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 23
   AndroidTargetSdkVersion: 24
@@ -809,7 +809,7 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   cloudProjectId: 6ceb8b92-614c-4d2d-85d6-a8dc6ee79065
   framebufferDepthMemorylessMode: 0
-  projectName: CityMatch
+  projectName: Match22 (1)
   organizationId: magangzxc
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

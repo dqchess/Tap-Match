@@ -117,21 +117,21 @@ namespace Mkey
         }
     }
 
-    [System.Serializable]
-    public class ShopThingDataReal : ShopThingData
-    {
-        public RealShopType shopType = RealShopType.Coins;
-        [Space(8, order = 0)]
-        [Header("Purchase Event: ", order = 1)]
-        public UnityEvent PurchaseEvent;
+    // [System.Serializable]
+    // public class ShopThingDataReal : ShopThingData
+    // {
+    //     public RealShopType shopType = RealShopType.Coins;
+    //     [Space(8, order = 0)]
+    //     [Header("Purchase Event: ", order = 1)]
+    //     public UnityEvent PurchaseEvent;
 
-        public ShopThingDataReal(ShopThingDataReal prod) : base(prod)
-        {
-            shopType = prod.shopType;
-            PurchaseEvent = prod.PurchaseEvent;
-        }
+    //     public ShopThingDataReal(ShopThingDataReal prod) : base(prod)
+    //     {
+    //         shopType = prod.shopType;
+    //         PurchaseEvent = prod.PurchaseEvent;
+    //     }
 
-    }
+    // }
     public enum InGameShopType { None, Booster };
     [System.Serializable]
     public class ShopThingDataInGame: ShopThingData

@@ -10,18 +10,18 @@ namespace Mkey
         private MatchPlayer MPlayer { get { return MatchPlayer.Instance; } }
         private MatchGUIController MGui { get { return MatchGUIController.Instance; } }
         private MatchSoundMaster MSound { get { return MatchSoundMaster.Instance; } }
-        private FBholder FB { get { return FBholder.Instance; } }
+        // private FBholder FB { get { return FBholder.Instance; } }
 
         void Start()
         {
-            FBholder.LoadTextEvent += SetPlayerName;
+            // FBholder.LoadTextEvent += SetPlayerName;
           //  FBholder.LogoutEvent += SetDefName;
         }
 
         void OnDestroy()
         {
-            FBholder.LoadTextEvent -= SetPlayerName;
-            FBholder.LogoutEvent -= SetDefName;
+            // FBholder.LoadTextEvent -= SetPlayerName;
+            // FBholder.LogoutEvent -= SetDefName;
         }
 
         public void SetPlayerName(bool logined, string firstName, string lastName)

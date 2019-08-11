@@ -47,8 +47,8 @@ namespace Mkey
             MPlayer.StartInfiniteLifeEvent += RefreshInfiniteLife;
             MPlayer.EndInfiniteLifeEvent += RefreshInfiniteLife;
             if (timerText) timerText.text = restMinutes.ToString("00") + ":" + restSeconds.ToString("00");
-            FBholder.LoginEvent += FacebooLoginHandler;
-            FBholder.LogoutEvent += FacebooLogoutHandler;
+            // FBholder.LoginEvent += FacebooLoginHandler;
+            // FBholder.LogoutEvent += FacebooLogoutHandler;
 
             Refresh();
         }
@@ -64,8 +64,8 @@ namespace Mkey
             MPlayer.ChangeLifeEvent -= RefreshLife;
             MPlayer.StartInfiniteLifeEvent -= RefreshInfiniteLife;
             MPlayer.EndInfiniteLifeEvent -= RefreshInfiniteLife;
-            FBholder.LoginEvent -= FacebooLoginHandler;
-            FBholder.LogoutEvent -= FacebooLogoutHandler;
+            // FBholder.LoginEvent -= FacebooLoginHandler;
+            // FBholder.LogoutEvent -= FacebooLogoutHandler;
         }
         #endregion regular 
 
@@ -108,7 +108,6 @@ namespace Mkey
             RefreshLife(MPlayer.Life);
             RefreshCoins(MPlayer.Coins);
             RefreshTimerText();
-            RefreshFacebook();
         }
 
         /// <summary>
@@ -165,35 +164,30 @@ namespace Mkey
         #region fb
         public void FacebooLoginLogout()
         {
-            if (FBholder.IsLogined)
-            {
-                FBholder.Instance.FBlogOut();
-            }
-            else
-            {
-                FBholder.Instance.FBlogin();
-            }
+            // if (FBholder.IsLogined)
+            // {
+            //     FBholder.Instance.FBlogOut();
+            // }
+            // else
+            // {
+            //     FBholder.Instance.FBlogin();
+            // }
         }
 
-        private Text facebookButtonText;
+        private Text ButtonText;
         private void FacebooLoginHandler(bool logined, string message)
         {
-            if (facebookButtonText) facebookButtonText.text = (!logined) ? "CONNECT" : "DISCONNECT";
+            if (ButtonText) ButtonText.text = (!logined) ? "CONNECT" : "DISCONNECT";
             if (logined) MPlayer.AddFbCoins();
             if (fbButton) fbButton.gameObject.SetActive(!logined);
         }
 
         private void FacebooLogoutHandler()
         {
-            if (facebookButtonText) facebookButtonText.text = (!FBholder.IsLogined) ? "CONNECT" : "DISCONNECT";
-            if (fbButton) fbButton.gameObject.SetActive(!FBholder.IsLogined);
+            // if (ButtonText) ButtonText.text = (!FBholder.IsLogined) ? "CONNECT" : "DISCONNECT";
+            // if (fbButton) fbButton.gameObject.SetActive(!FBholder.IsLogined);
         }
 
-        private void RefreshFacebook()
-        {
-            if (facebookButtonText) facebookButtonText.text = (!FBholder.IsLogined) ? "CONNECT" : "DISCONNECT";
-            if (fbButton) fbButton.gameObject.SetActive(!FBholder.IsLogined);
-        }
         #endregion fb
     }
 }

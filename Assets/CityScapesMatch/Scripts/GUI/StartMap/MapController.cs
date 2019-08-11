@@ -109,8 +109,8 @@ public class MapController : MonoBehaviour {
 
 
         // set fb events
-        FBholder.LoadPhotoEvent += SetFBPhoto;
-        FBholder.LogoutEvent += RemoveFBPhoto;
+        // FBholder.LoadPhotoEvent += SetFBPhoto;
+        // FBholder.LogoutEvent += RemoveFBPhoto;
 
         parentCanvas = GetComponentInParent<Canvas>();
         sRect = GetComponentInParent<ScrollRect>();
@@ -122,8 +122,8 @@ public class MapController : MonoBehaviour {
 
     private void OnDestroy()
     {
-        FBholder.LoadPhotoEvent -= SetFBPhoto;
-        FBholder.LogoutEvent -= RemoveFBPhoto;
+        // FBholder.LoadPhotoEvent -= SetFBPhoto;
+        // FBholder.LogoutEvent -= RemoveFBPhoto;
     }
     #endregion regular
 
@@ -166,7 +166,7 @@ public class MapController : MonoBehaviour {
 
     private void SetFBPhoto(bool logined, Sprite photo)
     {
-        if (logined && photo && avatarImage) avatarImage.sprite = FBholder.Instance.playerPhoto;
+        // if (logined && photo && avatarImage) avatarImage.sprite = FBholder.Instance.playerPhoto;
     }
 
     private void RemoveFBPhoto()
