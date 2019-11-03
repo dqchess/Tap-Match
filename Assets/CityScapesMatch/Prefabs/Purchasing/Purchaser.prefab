@@ -45,79 +45,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   consumable:
-  - name: 5 coins
-    thingImage: {fileID: 21300000, guid: 3949b0ba6b3c1ff47ba38cb32e28aadc, type: 3}
-    thingLabelImage: {fileID: 21300000, guid: d556f3f10082d994fa277dd187cd78e7, type: 3}
-    thingCount: 5
-    thingCountText: 5
-    thingCountOldText: 
-    thingPrice: 0.99
-    thingPriceText: $0.99
-    kProductID: coin_5
-    prefab: {fileID: 1904001098064614, guid: c2e99cfec203e9d4d971c6f05c67b80a, type: 3}
-    clickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-    shopType: 1
-    PurchaseEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 8305786983781986200}
-          m_MethodName: AddCoins
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 5
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-  - name: 10 coins
-    thingImage: {fileID: 21300000, guid: a2fde5a318878dd44b03741faf7be345, type: 3}
-    thingLabelImage: {fileID: 21300000, guid: 62d6fc7123568344a90641b7f0d5ca59, type: 3}
-    thingCount: 10
-    thingCountText: 10
-    thingCountOldText: 
-    thingPrice: 9.99
-    thingPriceText: $9.99
-    kProductID: coin_10
-    prefab: {fileID: 1904001098064614, guid: c2e99cfec203e9d4d971c6f05c67b80a, type: 3}
-    clickEvent:
-      m_PersistentCalls:
-        m_Calls: []
-      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
-        Culture=neutral, PublicKeyToken=null
-    shopType: 1
-    PurchaseEvent:
-      m_PersistentCalls:
-        m_Calls:
-        - m_Target: {fileID: 8305786983781986200}
-          m_MethodName: AddCoins
-          m_Mode: 3
-          m_Arguments:
-            m_ObjectArgument: {fileID: 0}
-            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-            m_IntArgument: 10
-            m_FloatArgument: 0
-            m_StringArgument: 
-            m_BoolArgument: 0
-          m_CallState: 2
-      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
-        Culture=neutral, PublicKeyToken=null
   - name: 50 coins
-    thingImage: {fileID: 21300000, guid: 10c87dc0862c3064d84ddd4c73222621, type: 3}
+    thingImage: {fileID: 21300000, guid: 3949b0ba6b3c1ff47ba38cb32e28aadc, type: 3}
     thingLabelImage: {fileID: 21300000, guid: d556f3f10082d994fa277dd187cd78e7, type: 3}
     thingCount: 50
     thingCountText: 50
     thingCountOldText: 
-    thingPrice: 12.99
-    thingPriceText: $12.99
-    kProductID: coin_50
+    thingPrice: 0.99
+    thingPriceText: $0.99
+    kProductID: coin50
     prefab: {fileID: 1904001098064614, guid: c2e99cfec203e9d4d971c6f05c67b80a, type: 3}
     clickEvent:
       m_PersistentCalls:
@@ -142,13 +78,13 @@ MonoBehaviour:
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
   - name: 100 coins
-    thingImage: {fileID: 21300000, guid: 67cd3c72c2044cf48971eb2bc1c79beb, type: 3}
-    thingLabelImage: {fileID: 0}
+    thingImage: {fileID: 21300000, guid: a2fde5a318878dd44b03741faf7be345, type: 3}
+    thingLabelImage: {fileID: 21300000, guid: 62d6fc7123568344a90641b7f0d5ca59, type: 3}
     thingCount: 100
     thingCountText: 100
     thingCountOldText: 
-    thingPrice: 14.99
-    thingPriceText: $14.99
+    thingPrice: 1.99
+    thingPriceText: $1.99
     kProductID: coin_100
     prefab: {fileID: 1904001098064614, guid: c2e99cfec203e9d4d971c6f05c67b80a, type: 3}
     clickEvent:
@@ -173,6 +109,70 @@ MonoBehaviour:
           m_CallState: 2
       m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
+  - name: 500 coins
+    thingImage: {fileID: 21300000, guid: 10c87dc0862c3064d84ddd4c73222621, type: 3}
+    thingLabelImage: {fileID: 21300000, guid: d556f3f10082d994fa277dd187cd78e7, type: 3}
+    thingCount: 500
+    thingCountText: 500
+    thingCountOldText: 
+    thingPrice: 4.99
+    thingPriceText: $4.99
+    kProductID: coin_500
+    prefab: {fileID: 1904001098064614, guid: c2e99cfec203e9d4d971c6f05c67b80a, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    shopType: 1
+    PurchaseEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8305786983781986200}
+          m_MethodName: AddCoins
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 500
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  - name: 1000 coins
+    thingImage: {fileID: 21300000, guid: 67cd3c72c2044cf48971eb2bc1c79beb, type: 3}
+    thingLabelImage: {fileID: 0}
+    thingCount: 1000
+    thingCountText: 1000
+    thingCountOldText: 
+    thingPrice: 9.99
+    thingPriceText: $9.99
+    kProductID: coin_1000
+    prefab: {fileID: 1904001098064614, guid: c2e99cfec203e9d4d971c6f05c67b80a, type: 3}
+    clickEvent:
+      m_PersistentCalls:
+        m_Calls: []
+      m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+    shopType: 1
+    PurchaseEvent:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 8305786983781986200}
+          m_MethodName: AddCoins
+          m_Mode: 3
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+            m_IntArgument: 1000
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+      m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
   - name: life and coins
     thingImage: {fileID: 21300000, guid: 9804a039998c3604d81d3a49380e8451, type: 3}
     thingLabelImage: {fileID: 0}
@@ -181,7 +181,7 @@ MonoBehaviour:
     thingCountOldText: 
     thingPrice: 14.99
     thingPriceText: $14.99
-    kProductID: coin_5000
+    kProductID: life12_and_coins5000
     prefab: {fileID: 1904001098064614, guid: b9d03ecaac585754e9c65340c93f29b5, type: 3}
     clickEvent:
       m_PersistentCalls:
@@ -222,8 +222,8 @@ MonoBehaviour:
     thingCount: 5
     thingCountText: +5
     thingCountOldText: 
-    thingPrice: 1.99
-    thingPriceText: $1.99
+    thingPrice: 0.99
+    thingPriceText: $0.99
     kProductID: live_5
     prefab: {fileID: 1904001098064614, guid: 9d2773b9dca70fa4c8a41b4c0cb5e241, type: 3}
     clickEvent:
@@ -256,7 +256,7 @@ MonoBehaviour:
     thingCountOldText: 
     thingPrice: 14.99
     thingPriceText: $14.99
-    kProductID: coin_5000
+    kProductID: life12_and_coins5000
     prefab: {fileID: 1904001098064614, guid: b9d03ecaac585754e9c65340c93f29b5, type: 3}
     clickEvent:
       m_PersistentCalls:
@@ -307,4 +307,3 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47521743433cfa84f9eb58296ca58b22, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dontDestroy: 1

@@ -32,31 +32,31 @@ namespace Mkey
                 DestroyImmediate(item.gameObject);
             }
 
-            // Purchaser p = Purchaser.Instance;
-            // if (p == null) return;
+            Purchaser p = Purchaser.Instance;
+            if (p == null) return;
 
-            // List<ShopThingDataReal> products = new List<ShopThingDataReal>();
+            List<ShopThingDataReal> products = new List<ShopThingDataReal>();
 
-            // VideoPurchaser vP = VideoPurchaser.Instance;
-            // if (vP && vP.gameProducts!=null &&  vP.gameProducts.Length > 0)
-            // {
-            //     products.AddRange(vP.gameProducts);
-            // }
+            VideoPurchaser vP = VideoPurchaser.Instance;
+            if (vP && vP.gameProducts!=null &&  vP.gameProducts.Length > 0)
+            {
+                products.AddRange(vP.gameProducts);
+            }
 
-            // if (p.consumable != null && p.consumable.Length > 0) products.AddRange(p.consumable);
-            // if (p.nonConsumable != null && p.nonConsumable.Length > 0) products.AddRange(p.nonConsumable);
-            // if (p.subscriptions != null && p.subscriptions.Length > 0) products.AddRange(p.subscriptions);
+            if (p.consumable != null && p.consumable.Length > 0) products.AddRange(p.consumable);
+            if (p.nonConsumable != null && p.nonConsumable.Length > 0) products.AddRange(p.nonConsumable);
+            if (p.subscriptions != null && p.subscriptions.Length > 0) products.AddRange(p.subscriptions);
 
-            // Debug.Log("products count: " + products.Count);
-            // if (products.Count==0) return;
+            Debug.Log("products count: " + products.Count);
+            if (products.Count==0) return;
 
-            // shopThings = new List<ShopThingHelper>();
-            // for (int i = 0; i < products.Count; i++)
-            // {
-            //   if(products[i]!=null && (products[i].shopType == shopType) && products[i].prefab)  shopThings.Add(ShopThingHelper.CreateShopThingsHelper(products[i].prefab, ThingsParent, products[i]));
-            // }
+            shopThings = new List<ShopThingHelper>();
+            for (int i = 0; i < products.Count; i++)
+            {
+              if(products[i]!=null && (products[i].shopType == shopType) && products[i].prefab)  shopThings.Add(ShopThingHelper.CreateShopThingsHelper(products[i].prefab, ThingsParent, products[i]));
+            }
 
-            // if (scrollFlag) scrollFlag.SetActive(products.Count > 4);
+            if (scrollFlag) scrollFlag.SetActive(products.Count > 4);
         }
     }
 }
